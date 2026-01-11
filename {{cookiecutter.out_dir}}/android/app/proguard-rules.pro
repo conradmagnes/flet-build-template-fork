@@ -1,2 +1,4 @@
 -keep class com.flet.serious_python_android.** { *; }
+-keep class com.flet.flet_app.ble.** { *; }
+-keep class org.jnius.** { *; }
 -keepnames class * { *; }
