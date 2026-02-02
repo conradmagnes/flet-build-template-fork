@@ -1,4 +1,4 @@
-package com.flet.flet_app.ble;
+package ch.magnes.flet_app.ble;
 
 import android.bluetooth.le.ScanCallback;
 import android.bluetooth.le.ScanResult;

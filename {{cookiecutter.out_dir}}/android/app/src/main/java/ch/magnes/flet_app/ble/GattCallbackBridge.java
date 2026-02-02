@@ -1,4 +1,4 @@
-package com.flet.flet_app.ble;
+package ch.magnes.flet_app.ble;
 
 import android.bluetooth.BluetoothGatt;
 import android.bluetooth.BluetoothGattCallback;
@@ -21,10 +21,15 @@ public class GattCallbackBridge extends BluetoothGattCallback {
      */
     public interface GattListener {
         void onConnectionStateChange(BluetoothGatt gatt, int status, int newState);
+
         void onServicesDiscovered(BluetoothGatt gatt, int status);
+
         void onCharacteristicRead(BluetoothGatt gatt, BluetoothGattCharacteristic characteristic, int status);
+
         void onCharacteristicWrite(BluetoothGatt gatt, BluetoothGattCharacteristic characteristic, int status);
+
         void onCharacteristicChanged(BluetoothGatt gatt, BluetoothGattCharacteristic characteristic);
+
         void onDescriptorWrite(BluetoothGatt gatt, BluetoothGattDescriptor descriptor, int status);
     }
 
