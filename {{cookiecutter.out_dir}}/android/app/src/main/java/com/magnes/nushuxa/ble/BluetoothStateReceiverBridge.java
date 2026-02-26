@@ -1,4 +1,4 @@
-package ch.magnes.flet_app.ble;
+package com.magnes.nushuxa.ble;
 
 import android.bluetooth.BluetoothAdapter;
 import android.content.BroadcastReceiver;

@@ -1,4 +1,4 @@
-package ch.magnes.flet_app.ble;
+package com.magnes.nushuxa.ble;
 
 import android.bluetooth.le.ScanCallback;
 import android.bluetooth.le.ScanResult;
@@ -6,6 +6,7 @@ import android.bluetooth.le.ScanResult;
 public class BleScanCallbackBridge extends ScanCallback {
     public interface BLEListener {
         void onDeviceFound(ScanResult result);
+
         void onScanFailed(int errorCode);
     }
 

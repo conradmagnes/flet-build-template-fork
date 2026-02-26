@@ -1,4 +1,4 @@
-package ch.magnes.flet_app.wifi;
+package com.magnes.nushuxa.wifi;
 
 import android.net.ConnectivityManager;
 import android.net.Network;
